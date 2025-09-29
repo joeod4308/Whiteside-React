@@ -1,0 +1,4 @@
+footer a:hover {
+    color: hotpink;
+    transition: 0.5s;
+}
