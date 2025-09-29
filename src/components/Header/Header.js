@@ -9,7 +9,7 @@ function Header() {
       <Link to="/App" className="nav-button">App</Link>
       <Link to="/About" className="nav-button">About</Link>
       <Link to="/GetQuote" className="nav-button">Get Quote</Link>
-      <button className="nav-button">Contact</button>
+      <Link to="/ContactUs" className="nav-button">Contact</Link>
       <button className="nav-button">Book Taxi</button>
       <a className="nav-button" href="tel:01253711611">01253 711 611</a>
       <button className="nav-button">Accounts</button>

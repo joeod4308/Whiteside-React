@@ -13,6 +13,7 @@ import Footer from './components/Footer/Footer';
 import AppPage from './pages/AppPage'; // ✅ import the new App page
 import AboutPage from './pages/AboutPage';
 import GetQuote from './pages/GetQuote';
+import ContactUs from './pages/ContactUs';
 
 
 function HomePage() {
@@ -41,6 +42,8 @@ function App() {
           <Route path='/about' element={<AboutPage />} />
           {/*New Get Quote Page */}
           <Route path='/getquote' element={<GetQuote />} />
+          {/*New ContactUs page */}
+          <Route path='/ContactUs' element={<ContactUs />} />
         </Routes>
         <Footer />
       </div>
