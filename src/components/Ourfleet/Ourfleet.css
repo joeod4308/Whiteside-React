@@ -1,0 +1,62 @@
+.var43000 {
+    height: auto;
+  /*  background-image:("/Images/fleet-bg.png"); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;        
+    background-position: center;  
+    background-size: cover;              
+    background-attachment: fixed;
+}
+
+.var43000-t-b { /*Parent container text block */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 50%;
+margin-bottom: 2rem;
+padding: 1rem 1rem;
+color: white;
+}
+
+.varh1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.varp {
+    max-width: 70%;
+    font-size: 20px;
+}
+
+
+.var43001 { /*Grid container */
+display: grid;
+grid-template-columns: repeat(2, 452px);
+height: fit-content;
+padding: 1rem 1rem;
+gap: 2rem;
+}
+
+.var43002 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.var43002h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.item-img {
+    width: 208px;
+    height: 80px;
+}
