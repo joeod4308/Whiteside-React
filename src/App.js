@@ -9,19 +9,14 @@ import Airporttransferscon from './components/Airporttransferscon/Airporttransfe
 import Ourfleet from './components/Ourfleet/Ourfleet';
 import DownloadApp from './components/DownloadApp/DownloadApp';
 import Footer from './components/Footer/Footer';
-<<<<<<< HEAD
 import Dropdown from './components/Dropdown/DropdownMenu';
-=======
->>>>>>> aef17d11169fedad7f643e76c06b1d99266fd20f
 
 import AppPage from './pages/AppPage'; // ✅ import the new App page
 import AboutPage from './pages/AboutPage';
 import GetQuote from './pages/GetQuote';
 import ContactUs from './pages/ContactUs';
-<<<<<<< HEAD
 import TestPage from './pages/TestPage';
-=======
->>>>>>> aef17d11169fedad7f643e76c06b1d99266fd20f
+
 
 
 function HomePage() {
@@ -52,11 +47,8 @@ function App() {
           <Route path='/getquote' element={<GetQuote />} />
           {/*New ContactUs page */}
           <Route path='/ContactUs' element={<ContactUs />} />
-<<<<<<< HEAD
           {/*New TestPage page */}
           <Route path='/TestPage' element={<TestPage />} />
-=======
->>>>>>> aef17d11169fedad7f643e76c06b1d99266fd20f
         </Routes>
         <Footer />
       </div>

@@ -13,10 +13,7 @@ function Header() {
       <button className="nav-button">Book Taxi</button>
       <a className="nav-button" href="tel:01253711611">01253 711 611</a>
       <button className="nav-button">Accounts</button>
-<<<<<<< HEAD
       <Link to="/TestPage" className="nav-button">TestPage</Link>
-=======
->>>>>>> aef17d11169fedad7f643e76c06b1d99266fd20f
     </header>
   );
 }
