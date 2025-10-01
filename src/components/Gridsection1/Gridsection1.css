@@ -1,0 +1,50 @@
+.Gridsection1 {
+    height: auto;
+    background-color: white;
+    padding: 1rem 1rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Gridsection1 h1 {
+    color: #ff39e5;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    font-size: 26px;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 352px);
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.grid-item {
+    width: 352px;
+    height: 152px;
+    border-radius: 8px;
+    border: 1px transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #e7e3f1;
+    font-size: 16px;
+}
+.grid-item h3 {
+    font-weight: 500;
+    color: #5b1ecd;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+
+
+}
