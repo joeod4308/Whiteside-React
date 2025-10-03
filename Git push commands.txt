@@ -1,0 +1,17 @@
+Git push commands because I can never ever remember them
+
+cd file directory
+
+git add .
+
+git status   //can use this to check whats new and whats been modified
+
+git commit -m "Update to files"
+
+git push origin main
+
+Done!
+
+Git Pull commad to clone repo this skips the container folder and will replace and add new files where needed remove the last part of command do clone with container folder.
+
+git pull origin main --allow-unrelated-histories
