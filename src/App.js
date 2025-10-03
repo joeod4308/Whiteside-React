@@ -44,7 +44,7 @@ function App() {
           {/*New About Page */}
           <Route path='/about' element={<AboutPage />} />
           {/*New Get Quote Page */}
-          <Route path='/getquote' element={<GetQuote />} />
+          <Route path='/Get-Quote' element={<GetQuote />} />
           {/*New ContactUs page */}
           <Route path='/ContactUs' element={<ContactUs />} />
           {/*New TestPage page */}

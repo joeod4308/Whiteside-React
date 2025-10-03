@@ -1,0 +1,205 @@
+.html,
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+.downloadapp-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   background-color: #e5e7eb; /* #e5e7eb */
+   margin-top: 5rem;
+}
+.app-image-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.phone-image {
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: -8rem;
+}
+
+.app-text-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.apph3 {
+    color: #ff5fbf;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.apph1 {
+    color: #5b1ecd;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 36px;
+}
+.appp {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.store-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.store-image {
+    width: 150px;
+    height: 50px;
+    gap: 1rem;
+}
+
+.why-container {
+    height: auto;
+    background-color: white;
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.why-container h3 {
+    font-weight: 500;
+    color: hotpink;
+    font-size: 32px;
+    margin-top: 5rem;
+}
+
+.why-item {
+    background-color: #e7e3f1;
+    padding: 1rem 1rem;
+    width: 352px;
+    height: 162px;
+    box-sizing: border-box;
+    color: blueviolet;
+    border-radius: 8px;
+
+}
+.why-item h2 {
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: 332px 332px 332px;
+    grid-template-rows: 162px 162px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-image {
+    width: 80px;
+    height: 80px;
+}
+
+
+.faq-con {
+    background-color: #ff5fbf;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* ✅ 2 equal columns */
+  gap: 1rem 2rem;                /* row gap / column gap */
+  margin: 2rem auto;
+  max-width: 1000px;             /* keeps it centered and tidy */
+  font-family: Arial, sans-serif;
+}
+
+.faq h1 {
+  grid-column: span 2;           /* title spans across both columns */
+  text-align: center;
+  color: #5b2cdb;
+  margin-bottom: 1.5rem;
+}
+
+/* FAQ boxes */
+.faq-grid details {
+  background: #f2eefc;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.faq-grid details[open] {
+  background: #ff33cc;
+  color: #fff;
+}
+
+.faq-grid summary {
+  font-weight: bold;
+  list-style: none;
+  cursor: pointer;
+}
+
+.faq-grid summary::-webkit-details-marker {
+  display: none; /* hide default arrow */
+}
+
+.faq-grid details[open] summary::after {
+  content: "▲";
+  float: right;
+}
+
+.faq-grid summary::after {
+  content: "▼";
+  float: right;
+}
+
+/* 📱 On mobile: switch to 1 column */
+@media (max-width: 768px) {
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faq h1 {
+    grid-column: span 1;
+  }
+}

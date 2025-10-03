@@ -1,8 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Form, Link } from 'react-router-dom';
 import './DropdownMenu.css'; // Reuse or move your dropdown styles here
 
-const DropdownMenu = ({ label = "Dropdown", links = [] }) => {
+const DropdownMenu = ({ 
+   label = "Dropdown",
+   links = [],
+   linkss =[],
+   className='' 
+   }) => {
   const dropdownRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,10 +28,16 @@ const DropdownMenu = ({ label = "Dropdown", links = [] }) => {
 
   return (
     <div className="dropdown" ref={dropdownRef}>
-      <button onClick={toggleDropdown} className="dropbtn">{label}</button>
+      <button onClick={toggleDropdown} className={`dropbtn ${className}`}>{label}</button> {/* Add ${className}`} when wanting to add a new styling route to it so atm it uses nav-button styles */}
       <div className={`dropdown-content ${isOpen ? 'show' : ''}`}>
         {links.map((link, index) => (
           <Link key={index} to={link.to}>{link.label}</Link>
+        ))}
+        {/* Then create a new link map so edit the first word e.g linkss and make it whatver you want then add a const for it on the header page or wherere your doing it */}
+        {linkss.map((link, index) => (                
+          <Link key={`s-${index}`} to={link.to}>
+            {link.label}
+          </Link>
         ))}
       </div>
     </div>

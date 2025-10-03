@@ -3,6 +3,7 @@ import './TestPage.css';
 import { Link } from 'react-router-dom';
 import DropdownMenu from '../components/Dropdown/DropdownMenu';
 import Test from '../components/Test';
+import '../components/Header/Header.css';
 
 
 function TestPage() {
@@ -15,7 +16,7 @@ function TestPage() {
     <div className="test-container">
       <section className="buttonsrow">
         <Test />
-        <DropdownMenu label="Navigate" links={links} />
+        <DropdownMenu className="nav-button" label="Navigate" links={links} />
       </section>
         
     </div>

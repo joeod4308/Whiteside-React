@@ -28,6 +28,16 @@ through the app—no hassle, no delays.`}
     {`Download the Whiteside Taxis app today and enjoy a faster, smarter way to
 travel in Blackpool.`}
 
+                <div className='pay-links-row'>
+                    <a href='https://apps.apple.com/gb/app/whiteside-taxis/id1543029570' target='blank'>
+                    <img src='./Images/pay-links/app-store.avif' className='store' alt='Download on the App store'></img>
+                    </a>
+                    <a href='https://play.google.com/store/apps/details?id=uk.co.whitesidetaxis&hl=en' target='blank'>
+                    <img src='./Images/pay-links/play-store.avif' className='store' alt='Download on the Play store'></img>
+                    </a>
+                    <img src='./Images/pay-links/apple-pay.avif' className='pay' alt='Pay using Apple Pay'></img>
+                    <img src='./Images/pay-links/gpay.avif' className='pay' alt='Pay using Google Pay'></img>
+                </div>
             </div>
             </section>
             </div>

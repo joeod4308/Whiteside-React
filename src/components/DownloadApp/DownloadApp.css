@@ -42,3 +42,23 @@
     font-size: 36px;
     color: blueviolet;
 }
+
+.pay-links-row {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 1rem;
+    gap: 1rem;
+
+}
+.pay {
+    width: 103px;
+    height: 48px;
+}
+
+.store {
+    width: 154px;
+    height: 48px;
+}
+
