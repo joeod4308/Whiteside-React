@@ -10,7 +10,7 @@ function Header() {
     ];
   const linkss= [
         { to: '/Get-Quote', label: 'Get Quote' },
-        { to: '/logout', label: 'Logout' },
+        { to: '/NationwideTransport', label: 'Nationwide Transport' },
     ];
     
   

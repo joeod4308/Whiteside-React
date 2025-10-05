@@ -16,6 +16,7 @@ import AboutPage from './pages/AboutPage';
 import GetQuote from './pages/GetQuote';
 import ContactUs from './pages/ContactUs';
 import TestPage from './pages/TestPage';
+import NationwideTransport from './pages/NationwideTransport';
 
 
 
@@ -49,6 +50,8 @@ function App() {
           <Route path='/ContactUs' element={<ContactUs />} />
           {/*New TestPage page */}
           <Route path='/TestPage' element={<TestPage />} />
+          {/*New nationwide transport page */}
+          <Route path='/NationwideTransport' element={<NationwideTransport />} />
         </Routes>
         <Footer />
       </div>
