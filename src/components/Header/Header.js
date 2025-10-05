@@ -8,7 +8,7 @@ function Header() {
         {to: "/CompanyInformation", label: "Company Information"},
         {to: "/WhitesideForBussiness", label: "Whiteside For Bussiness"},
         {to: "/OurFleet", label: "Our Fleet"},
-        {to: "/Careers", label: "Careers"},
+        {to: "/CareerPage", label: "Careers"},
         {to: "/ThingsToDoInBlackpool", label: "Things To Do In Blackpool"}
     ];
   const linkss= [

@@ -17,6 +17,7 @@ import GetQuote from './pages/GetQuote';
 import ContactUs from './pages/ContactUs';
 import TestPage from './pages/TestPage';
 import NationwideTransport from './pages/NationwideTransport';
+import CareerPage from './pages/CareerPage';
 
 
 
@@ -52,6 +53,8 @@ function App() {
           <Route path='/TestPage' element={<TestPage />} />
           {/*New nationwide transport page */}
           <Route path='/NationwideTransport' element={<NationwideTransport />} />
+          {/*New Career page */}
+           <Route path='/CareerPage' element={<CareerPage />} />
         </Routes>
         <Footer />
       </div>
