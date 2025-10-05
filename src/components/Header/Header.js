@@ -5,12 +5,18 @@ import React, { useEffect, useRef, useState } from "react";
 
 function Header() {
   const links= [
-        {to: "/about", label: "About"},
-        {to: "/app", label: "App"}
+        {to: "/CompanyInformation", label: "Company Information"},
+        {to: "/WhitesideForBussiness", label: "Whiteside For Bussiness"},
+        {to: "/OurFleet", label: "Our Fleet"},
+        {to: "/Careers", label: "Careers"},
+        {to: "/ThingsToDoInBlackpool", label: "Things To Do In Blackpool"}
     ];
   const linkss= [
         { to: '/Get-Quote', label: 'Get Quote' },
         { to: '/NationwideTransport', label: 'Nationwide Transport' },
+        { to: '/AirportTransfers', label: 'Airport Transfers' },
+        { to: '/Manchester Airport', label: 'Manchester Airport' },
+        { to: '/LiverpoolAirport', label: 'Liverpool Airport' },
     ];
     
   
@@ -21,6 +27,7 @@ function Header() {
     <header>
       <img src='/Images/logo.png' alt='Whiteside taxis logo' className='header-logo'></img>
       <Link to="/" className="nav-button">Home</Link>
+      <Link to="/App" className="nav-button">App</Link>
       <DropdownMenu className="nav-button" label="About ▼" links={links} />
       <DropdownMenu className="nav-button" label="Get Quote ▼" linkss={linkss} />
       <Link to="/ContactUs" className="nav-button">Contact</Link>
