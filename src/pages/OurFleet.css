@@ -1,0 +1,107 @@
+.var1000-button {
+    width: fit-content;
+    height: auto;
+    padding: 1rem 2rem;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.var1000-button:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.ourfleet-container {
+    background-color: rgb(231, 227, 241);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+    padding: 1rem 1rem;
+}
+
+.var1000-t-block {
+    width: auto;
+    height: 100%;
+    margin-left: 15%;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.var1000-t-block h1{
+    font-size: 38px;
+    color: blueviolet;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.var1000-t-block p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.vehicle-container {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    background-color: white;
+}
+
+.vehicle-container:nth-child(even) {
+    flex-direction: row-reverse;
+    background-color: rgb(231, 227, 241);
+}
+
+/* IMAGE SIDE */
+.vehicle-container .var4308-l-con {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+/* TEXT SIDE */
+.vehicle-container .var4308-r-con {
+    width: 55%;
+    display: flex;
+    justify-content: center;   /* default → centered vertically */
+    align-items: flex-start;   /* default → text starts at left */
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+
+.vehicle-container:nth-child(even) .var4308-r-con {
+    justify-content: center; /* push text to bottom */
+    align-items: flex-end;     /* align text to right edge */
+    text-align: right;         /* optional: text itself right-aligned */
+    padding: 1rem 1rem;
+}
+
+
+
+
+.var4308-image {
+    width: 60%;
+    height: 200px;
+}
+.var4308-r-con h3 {
+    font-size: 36px;
+    color: blueviolet;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.var4308-r-con p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    max-width: 75%;
+}

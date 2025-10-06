@@ -18,7 +18,7 @@ import ContactUs from './pages/ContactUs';
 import TestPage from './pages/TestPage';
 import NationwideTransport from './pages/NationwideTransport';
 import CareerPage from './pages/CareerPage';
-
+import OurFleet from './pages/OurFleet';
 
 
 function HomePage() {
@@ -55,6 +55,8 @@ function App() {
           <Route path='/NationwideTransport' element={<NationwideTransport />} />
           {/*New Career page */}
            <Route path='/CareerPage' element={<CareerPage />} />
+          {/*New OurFleet page */}
+            <Route path='/OurFleet' element={<OurFleet />} />
         </Routes>
         <Footer />
       </div>
