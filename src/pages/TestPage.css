@@ -132,3 +132,59 @@
     margin-top: 1rem !important;
 
 }
+
+.con-4 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.con-4-h3 {
+    font-size: 36px;
+    color: indigo;
+    font-weight: 600;
+    max-width: 40%;
+    text-align: center;
+}
+
+.con-4-p {
+    font-size: 18px;
+    max-width: 40%;
+    text-align: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 500px) !important;
+    margin-top: 2rem;
+    width: auto;
+    column-gap: 10rem;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 1rem 1rem;
+}
+
+.con-4 .grid-2 .grid-2-input {
+    display: flex !important;
+    padding: 1rem 1rem !important;
+    width: 500px !important;
+    height: 40px !important;
+}
+
+.grid-2-button {
+    width: 1190px !important;
+    height: fit-content !important;
+    padding: 1rem 1rem !important;
+    background-color: indigo !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    margin-top: 1rem !important;
+
+}

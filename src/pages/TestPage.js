@@ -82,6 +82,46 @@ function TestPage() {
       </section>
       <button className="grid-1-button" type="submit">Submit</button>
       </div>
+
+      <div className="con-4">
+        <h3 className="con-4-h3">Want To Setup A Personal Account Then Please Provide Your Details</h3>
+        <p className="con-4-p">If you would like to setup a personal account then please complete this form so we can get you setup on our systems.</p>
+
+      <section className="grid-2">
+        <label htmlfor="name" className="grid-2-label">First Name
+        <input type="text" id="name" name="name" className="grid-2-input" placeholder="First Name" required autoComplete="name"/>
+        </label>
+
+        <label htmlfor="surname" className="grid-2-label">Surname
+        <input type="text" id="surname" name="surname" className="grid-2-input" placeholder="Surname" required autoComplete="family-name"/>
+        </label>
+
+        <label htmlfor="address" className="grid-2-label">ADDRESS
+        <input type="text" id="address" name="address" className="grid-2-input" placeholder="Address" required autoComplete="street-address"/>
+        </label>
+
+        <label htmlfor="email" className="grid-2-label">EMAIL
+        <input type="email" id="email" name="email" className="grid-2-input" placeholder="Email" required autoComplete="email"/>
+        </label>
+
+        <label htmlfor="phone number" className="grid-2-label">PHONE NUMBER
+        <input type="tel" id="phone-number" name="phone number" className="grid-2-input" placeholder="Phone Number" required autoComplete="tel"/>
+        </label>
+
+        <label htmlfor="other phone number" className="grid-2-label">OTHER PHONE NUMBER
+        <input type="tel" id="other-phone number" name="other phone number" className="grid-2-input" placeholder="Other Phone Number" required autoComplete="tel"/>
+        </label>
+
+        <label htmlfor="password number" className="grid-2-label">PASSWORD NUMBER
+        <input type="password" inputMode="numeric" maxLength="4" value={pin} id="password number" name="password number" className="grid-2-input" placeholder="Password Number up to 4 numbers" onChange={handleChange} autoComplete="new-password"/>
+        </label>
+
+        <label htmlfor="preferred account refrence" className="grid-2-label">PREFERRED ACCOUNT REFERENCE
+        <input type="text" id="preferred-account-refrence" name="preferred account refrence" className="grid-2-input" placeholder="Preferred Account Refrence"/>
+        </label>
+      </section>
+      </div>
+
     </>
   );
 }
