@@ -25,7 +25,9 @@ function Header() {
   
   return (
     <header>
+      <Link to="/">
       <img src='/Images/logo.png' alt='Whiteside taxis logo' className='header-logo'></img>
+      </Link>
       <Link to="/" className="nav-button">Home</Link>
       <Link to="/App" className="nav-button">App</Link>
       <DropdownMenu className="nav-button" label="About ▼" links={links} />

@@ -1,0 +1,78 @@
+.var4308-b {
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    color: blueviolet;
+    width: fit-content;
+    height: auto;
+    margin: 0;
+    text-decoration: none;
+}
+.var4308-b:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;
+}
+
+.var4308-con {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   background-color: rgb(231, 227, 241);
+}
+.var4308-t-b {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.var4308-t-b h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    max-width: 50%;
+    color: blueviolet;
+}
+.var4308-t-b p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    max-width: 50%;
+    font-size: 18px;
+}
+
+.var43081-con {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 2rem;
+}
+
+.var4308-item-con {
+    background-color: rgb(231, 227, 241);
+    width: 65%;
+    height: fit-content;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+}
+.var4308-item-con h3 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.var4308-item-con p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.var4308-item-con a {
+    color: hotpink;
+    text-decoration: none;
+}

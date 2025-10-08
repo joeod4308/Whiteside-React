@@ -19,6 +19,7 @@ import TestPage from './pages/TestPage';
 import NationwideTransport from './pages/NationwideTransport';
 import CareerPage from './pages/CareerPage';
 import OurFleet from './pages/OurFleet';
+import ThingsToDoInBlackpool from './pages/ThingsToDoInBlackpool';
 
 
 function HomePage() {
@@ -57,6 +58,8 @@ function App() {
            <Route path='/CareerPage' element={<CareerPage />} />
           {/*New OurFleet page */}
             <Route path='/OurFleet' element={<OurFleet />} />
+          {/*New ThingsToDoInBlackpool page */}
+            <Route path='/ThingsToDoInBlackpool' element={<ThingsToDoInBlackpool />} />
         </Routes>
         <Footer />
       </div>
