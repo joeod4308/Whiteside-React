@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import './TestPage.css';
 import { Link } from 'react-router-dom';
-import { Item } from "@adobe/react-spectrum";
 
-function TestPage() {
+function CompanyInformation() {
   
 
   return (
@@ -127,4 +125,4 @@ function TestPage() {
   );
 }
 
-export default TestPage;
+export default CompanyInformation;

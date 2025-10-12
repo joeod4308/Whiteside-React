@@ -1,0 +1,246 @@
+.con-1 {
+    height: auto;
+    background-color: #e7e3f1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.art-1 {
+    margin-left: 15%;
+    background-color: #e7e3f1;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5rem;
+    padding-bottom: 5rem
+
+}
+
+.art-1-h3 {
+    font-size: 36px;
+    color: indigo;
+    font-weight: 600;
+}
+
+.art-1-p {
+    font-size: 18px;
+    max-width: 50%;
+}
+
+.art-1-a {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: indigo;
+    border: 2px solid indigo;
+    border-radius: 8px;
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 1rem;
+}
+
+
+
+.con-2 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.sec-1-h3 {
+    font-size: 36px;
+    color: indigo;
+    font-weight: 600;
+}
+.sec-1-p {
+    font-size: 18px;
+    max-width: 74%;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.con-3 {
+    background-color: #e7e3f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.con-3-h3 {
+    font-size: 36px;
+    color: indigo;
+    font-weight: 600;
+    max-width: 40%;
+    text-align: center;
+}
+
+.con-3-p {
+    font-size: 18px;
+    max-width: 40%;
+    text-align: center;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 500px) !important;
+    margin-top: 2rem;
+    width: auto;
+    column-gap: 10rem;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 1rem 1rem;
+}
+
+.con-3 .grid-1 .grid-1-input {
+    display: flex !important;
+    padding: 1rem 1rem !important;
+    width: 500px !important;
+    height: 40px !important;
+}
+
+.grid-1-button {
+    width: 1190px !important;
+    height: fit-content !important;
+    padding: 1rem 1rem !important;
+    background-color: indigo !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    margin-top: 1rem !important;
+
+}
+
+.con-4 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.con-4-h3 {
+    font-size: 36px;
+    color: indigo;
+    font-weight: 600;
+    max-width: 40%;
+    text-align: center;
+}
+
+.con-4-p {
+    font-size: 18px;
+    max-width: 40%;
+    text-align: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 500px) !important;
+    margin-top: 2rem;
+    width: auto;
+    column-gap: 10rem;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 1rem 1rem;
+}
+
+.con-4 .grid-2 .grid-2-input {
+    display: flex !important;
+    padding: 1rem 1rem !important;
+    width: 500px !important;
+    height: 40px !important;
+}
+
+.grid-2-button {
+    width: 1190px !important;
+    height: fit-content !important;
+    padding: 1rem 1rem !important;
+    background-color: indigo !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    margin-top: 1rem !important;
+
+}
+
+
+
+
+.con-5 {
+    height: auto;
+    background-color: #e7e3f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: cemter;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.sec-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sec-2-item {
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    padding: 1rem 1rem;
+    border: 2px solid indigo;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-2-item-h3 {
+font-size: 20px;
+font-weight: 500;
+margin-top: 0;
+margin-bottom: 4px;
+}
+
+.sec-2-item-p {
+font-size: 16px;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.sec-2-item-img {
+    height: 40px;
+    width: 50%;
+    object-fit: contain;
+    margin-bottom: 8px;
+}

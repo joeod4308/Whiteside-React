@@ -64,7 +64,7 @@ St Annes On Sea FY8 2JE`}
             <div className='h-auto text-[white] p-4 rounded-[80px] w-[300px]'>
                 <h3 className='text-[20px] font-medium'>ABOUT</h3>
                 <ol>
-                 <li><a href='#'></a>Company Information</li>
+                 <li><Link to={"/CompanyInformation"}>Company Information</Link></li>
                   <li><Link to={"/WhitesideForBusiness"}>Whiteside for Business</Link></li>
                    <li><Link to={"/OurFleet"}>Our Fleet</Link></li>
                     <li><Link to={"/CareerPage"}>Careers</Link></li>

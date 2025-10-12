@@ -26,6 +26,7 @@ import Book from './pages/Book';
 import AirportTransfers from './pages/AirportTransfers';
 import ManchesterAirport from './pages/ManchesterAirport';
 import LiverpoolAirport from './pages/LiverpoolAirport';
+import CompanyInformation from './pages/CompanyInformation';
 
 
 function HomePage() {
@@ -77,6 +78,9 @@ function App() {
             <Route path ='/ManchesterAirport' element={<ManchesterAirport />} />
             {/* New LiverpoolAirport page */}
             <Route path ='/LiverpoolAirport' element={<LiverpoolAirport />} />
+            {/* New CompanyInformation page */}
+            <Route path ='/CompanyInformation' element={<CompanyInformation />} />
+
 
 
         </Routes>

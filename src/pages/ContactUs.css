@@ -84,6 +84,7 @@ body {
     background-color: #e5e7eb;
     padding: 1rem 2rem;
     border-radius: 8px;
+    width: 600px;
 }
 .form-block h1 {
     font-size: 38px;
@@ -91,6 +92,7 @@ body {
 }
 .form-block p {
     font-size: 18px;
+    max-width: 65%;
 }
 input[type="text"] {
     width: 486px;
@@ -130,7 +132,7 @@ textarea[name="message"]{
 }
 .submit-form-butt {
     display: flex;
-    width: 520px;
+    width: 486px;
     padding: 1rem 1rem;
     border-radius: 8px;
     justify-content: center;
