@@ -42,6 +42,21 @@ function TestPage() {
           <img src="./Images/History/whiteside-company-2.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
         </div>
         </div>
+
+        <div className="h-auto flex flex-row">
+          <section className="w-[45%] flex mt-[2rem] mb-[2rem]">
+            <img src="./Images/History/whiteside-company-1.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
+          </section>
+          <section className="w-[55%] flex mt-[2rem] mb-[2rem]">
+            <article className="flex justify-center items-start flex-col mr-[15%]">
+              <h3 className="text-[36px] text-[#5b1ecd] font-semibold" >The Story So Far…</h3>
+              <p>Successfully run by the Whiteside family for four generations, our philosophy is to provide a dependable service with smart, immaculate cars, uniformed drivers at a competitive price. You can expect an immaculately presented Whiteside vehicle on time, every time and our average response time, from the time the booking is made, to the arrival of your taxi is approximately 2 minutes!</p>
+              <p>We are the only taxi company in the North West to adopt a full uniform which includes collared shirt and company tie. Within the trade we have an excellent reputation for superior vehicles, better, smarter drivers with much more attention to customer care.</p>
+              <p>Our friendly staff are waiting to take your enquiry or booking 24 hours a day, 7 days a week. Or email your details to: <a href="mailto:bookings@whitesidetaxis.co.uk" className="text-[#ff39e5]">bookings@whitesidetaxis.co.uk</a></p>
+              <p className="text-[#ff39e5] mt-[4px]">“Whiteside Taxis is a family-owned company with over 145 years experience in offering the utmost customer care, comfort, and reliability”.</p>
+            </article>
+          </section>
+        </div>
     </>
   );
 }
