@@ -2,126 +2,46 @@ import React, { useEffect, useRef, useState } from "react";
 import './TestPage.css';
 import { Link } from 'react-router-dom';
 
-
-
-
 function TestPage() {
   
-  const [pin, setPin] = useState('');
-
-  const handleChange = (e) => {
-    const value = e.target.value.replace(/\D/g, ''); // remove non-digits
-    if (value.length <= 4) {
-      setPin(value);
-    }
-  };
 
   return (
     <>
-    <div className="con-1">
-      <article className="art-1">
-        <h3 className="art-1-h3" >Set Up an Account Today</h3>
-        <p className="art-1-p" >Trust Whitesides for all your business transport needs. Contact us today for business-to-business inquiries and discover how we can help streamline your transportation requirements.</p>
-      <a href="mailto:accounts@whitesidetaxis.co.uk" className="art-1-a" >Register Account</a>
-      </article>
-    </div>
-
-    <div className="con-2">
-      <section className="sec-1">
-        <h3 className="sec-1-h3">Register an account today</h3>
-        <p className="sec-1-p">We would love to welcome your business on board and register an account today! If you are a hotel, pub, club, bar, shop, restaurant, casino, dentist, doctor’s surgery or you fit into any other business category you can trust Whiteside Taxis to offer great service and reliability.</p>
-        <p className="sec-1-p">We have a large fleet of over 85 smart, modern vehicles which utilise the latest technology to ensure reliability. All our vehicles are immaculate and driven by uniformed drivers wearing a company tie. We believe this provides a great first impression of professionalism for your customer which reflects on your own business. All our vehicles are of late model with many less than 2 years old and are ideal for corporate travel.</p>
-        <p className="sec-1-p">Over the past five years, Whiteside Taxis has made a significant commitment to sustainability by investing in the reduction of our carbon footprint. As part of our ongoing efforts, we have successfully transitioned 85% of our fleet to electric hybrid vehicles, ensuring lower emissions and a smaller environmental impact. This year, we are taking our environmental initiatives further by installing a rapid EV charger at our head offices, enabling the seamless integration of fully electric vehicles into our fleet. Once operational, this charger will facilitate the addition of electric vehicles, allowing our clients to enjoy clean, zero-emissions travel. When you choose Whiteside Taxis, you can rest assured that your business journeys are contributing to a greener, more sustainable future.</p>
-        <p className="sec-1-p">All major credit cards are accepted and a monthly company account can be arranged on request. Our client portfolio includes corporates such as BNFL, AXA Insurance, British Aerospace and IBM; many of whom have been satisfied customers for decades. We are also proud to be the preferred taxi company for smaller businesses throughout the Fylde and Blackpool who benefit from our exceptional reliability and competitive rates.</p>
-      </section>
+      <div className="h-auto py-[2rem] bg-[#e7e3f1]">
+        <section className="ml-[15%] mb-[3rem] flex flex-col">
+          <h1 className="text-[36px] text-[#5b1ecd] font-semibold mb-[2rem]">Whiteside Taxis</h1>
+          <p>Serving Blackpool and Fylde Coast for over 145 years</p>
+          <p>A Family Run Business since 1880</p>
+          <p>Clean, Reliable, Affordable</p>
+          <p>Proud to be the oldest taxi company in the United Kingdom</p>
+          <p>Four Generations of Experience in Reliable Transport and Customer Care</p>
+          <Link to={"/Book"} className=" mt-[1rem] rounded-[8px] border-2 border-solid border-[#5b1ecd] w-[fit-content] h-[fit-content] px-[2rem] py-[1rem] bg-transparent hover:bg-[#5b1ecd] hover:text-[white] hover:[transition:0.5s]" >Book a Taxi</Link>
+        </section>
       </div>
 
-      <div className="con-3">
-        <h3 className="con-3-h3">Want To Setup A Business Account Then Please Provide Your Details</h3>
-        <p className="con-3-p">If you would like to setup a business account then please complete this form so we can get you setup on our systems.</p>
-      <section className="grid-1">
-        <label htmlfor="name" className="grid-1-label">First Name
-        <input type="text" id="name" name="name" className="grid-1-input" placeholder="First Name" required autoComplete=""/>
-        </label>
-
-        <label htmlfor="surname" className="grid-1-label">Surname
-        <input type="text" id="surname" name="surname" className="grid-1-input" placeholder="Surname" required autoComplete=""/>
-        </label>
-
-        <label htmlfor="Company Registration NumberR" className="grid-1-label">COMPANY REGISTRATION NUMBER
-        <input type="text" id="Company-Registration-Number" name="Company Registration Number" className="grid-1-input" placeholder="Company Registration Number" required autoComplete=""/>
-        </label>
-
-        <label htmlfor="Company Name" className="grid-1-label">COMPANY NAME
-        <input type="text" id="Company-Name" name="Company Name" className="grid-1-input" placeholder="Company Name" required autoComplete=""/>
-        </label>
-
-        <label htmlfor="bussiness address" className="grid-1-label">BUSSINESS ADDRESS
-        <input type="text" id="bussiness-address" name="bussiness address" className="grid-1-input" placeholder="Bussiness Address" required autoComplete=""/>
-        </label>
-
-        <label htmlfor="email" className="grid-1-label">EMAIL
-        <input type="email" id="email" name="email" className="grid-1-input" placeholder="Email" required autoComplete=""/>
-        </label>
-
-        <label htmlfor="phone number" className="grid-1-label">PHONE NUMBER
-        <input type="tel" id="phone-number" name="phone number" className="grid-1-input" placeholder="Phone Number" required autoComplete=""/>
-        </label>
-
-        <label htmlfor="other phone number" className="grid-1-label">OTHER PHONE NUMBER
-        <input type="tel" id="other-phone number" name="other phone number" className="grid-1-input" placeholder="Other Phone Number" required autoComplete=""/>
-        </label>
-
-        <label htmlfor="password number" className="grid-1-label">PASSWORD NUMBER
-        <input type="password" inputMode="numeric" maxLength="4" value={pin} id="password number" name="password number" className="grid-1-input" placeholder="Password Number up to 4 numbers" onChange={handleChange} autoComplete=""/>
-        </label>
-
-        <label htmlfor="preferred account refrence" className="grid-1-label">PREFERRED ACCOUNT REFERENCE
-        <input type="text" id="preferred-account-refrence" name="preferred account refrence" className="grid-1-input" placeholder="Preferred Account Refrence" required autoComplete=""/>
-        </label>
-      </section>
-      <button className="grid-1-button" type="submit">Submit</button>
+      <div className="h-auto flex flex-row mt-[3rem] mb-[3rem] ">
+        <img src='./Images/history/thomas-whiteside.avif' alt="Thomas Whiteside" className="rounded-[50%] w-[400px] h-[400px] ml-[15%]"></img>
+        <div className="flex justify-center items-start flex-col  ">
+        <h1 className="text-[36px] text-[#5b1ecd] flex jusify-center items-center ml-[2rem] font-semibold mb-[1rem]">Whiteside Taxi History Through Time</h1>
+        <p className="ml-[2rem] mr-[15%]">The company was founded by Thomas Whiteside in 1880 and is the oldest taxi company in England. The story goes that he won a horse’s harness in a raffle. He then borrowed a horse and cart from his uncle and started a haulage business and as the saying goes, the rest is history…</p>
+        <p className="ml-[2rem] mr-[15%]">Since those humble beginnings Whiteside Taxis has grown, and is the largest taxi company in the Fylde with our new purpose built offices situated in the heart of St. Annes.</p>
+        </div>
       </div>
 
-      <div className="con-4">
-        <h3 className="con-4-h3">Want To Setup A Personal Account Then Please Provide Your Details</h3>
-        <p className="con-4-p">If you would like to setup a personal account then please complete this form so we can get you setup on our systems.</p>
+      <div className="h-auto flex flex-row bg-[#e7e3f1]">
+      <section className="w-[50%] flex mt-[2rem] mb-[2rem]">
+        <article className="ml-[15%] flex justify-center items-center flex-col">
+        <h3 className="text-[36px] text-[#5b1ecd] font-semibold" >About Whiteside Taxis</h3>
+        <p>We operate a clean, modern fleet of over 85 late model vehicles using the latest technology in computer dispatch systems to ensure optimum reliability and punctuality.</p>
+        <p>By investing in the latest technology on the market and constantly searching for innovative software that can improve the services we provide to our customers and drivers has ensured we are always ahead of the competition.</p>
+        <p>Our dispatch system offers Text Back, clients can now manage their taxi reservations with Web Booker, pay by card and track their vehicle with our booking app and receive email and text confirmations/receipts for their Blackpool Taxi bookings.</p>
+        </article>
+        </section>
 
-      <section className="grid-2">
-        <label htmlfor="name" className="grid-2-label">First Name
-        <input type="text" id="name" name="name" className="grid-2-input" placeholder="First Name" required autoComplete="name"/>
-        </label>
-
-        <label htmlfor="surname" className="grid-2-label">Surname
-        <input type="text" id="surname" name="surname" className="grid-2-input" placeholder="Surname" required autoComplete="family-name"/>
-        </label>
-
-        <label htmlfor="address" className="grid-2-label">ADDRESS
-        <input type="text" id="address" name="address" className="grid-2-input" placeholder="Address" required autoComplete="street-address"/>
-        </label>
-
-        <label htmlfor="email" className="grid-2-label">EMAIL
-        <input type="email" id="email" name="email" className="grid-2-input" placeholder="Email" required autoComplete="email"/>
-        </label>
-
-        <label htmlfor="phone number" className="grid-2-label">PHONE NUMBER
-        <input type="tel" id="phone-number" name="phone number" className="grid-2-input" placeholder="Phone Number" required autoComplete="tel"/>
-        </label>
-
-        <label htmlfor="other phone number" className="grid-2-label">OTHER PHONE NUMBER
-        <input type="tel" id="other-phone number" name="other phone number" className="grid-2-input" placeholder="Other Phone Number" required autoComplete="tel"/>
-        </label>
-
-        <label htmlfor="password number" className="grid-2-label">PASSWORD NUMBER
-        <input type="password" inputMode="numeric" maxLength="4" value={pin} id="password number" name="password number" className="grid-2-input" placeholder="Password Number up to 4 numbers" onChange={handleChange} autoComplete="new-password"/>
-        </label>
-
-        <label htmlfor="preferred account refrence" className="grid-2-label">PREFERRED ACCOUNT REFERENCE
-        <input type="text" id="preferred-account-refrence" name="preferred account refrence" className="grid-2-input" placeholder="Preferred Account Refrence"/>
-        </label>
-      </section>
-      </div>
-
+        <div className="w-[50%] mt-[2rem] mb-[2rem]">
+          <img src="./Images/History/whiteside-company-2.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
+        </div>
+        </div>
     </>
   );
 }

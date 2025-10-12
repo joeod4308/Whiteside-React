@@ -10,6 +10,7 @@ import Ourfleet from './components/Ourfleet/Ourfleet';
 import DownloadApp from './components/DownloadApp/DownloadApp';
 import Footer from './components/Footer/Footer';
 import Dropdown from './components/Dropdown/DropdownMenu';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import AppPage from './pages/AppPage'; // ✅ import the new App page
 import AboutPage from './pages/AboutPage';
@@ -20,6 +21,11 @@ import NationwideTransport from './pages/NationwideTransport';
 import CareerPage from './pages/CareerPage';
 import OurFleet from './pages/OurFleet';
 import ThingsToDoInBlackpool from './pages/ThingsToDoInBlackpool';
+import WhitesideForBusiness from './pages/WhitesideForBusiness';
+import Book from './pages/Book';
+import AirportTransfers from './pages/AirportTransfers';
+import ManchesterAirport from './pages/ManchesterAirport';
+import LiverpoolAirport from './pages/LiverpoolAirport';
 
 
 function HomePage() {
@@ -37,6 +43,7 @@ function HomePage() {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div>
         <Header />
         <Routes>
@@ -60,6 +67,18 @@ function App() {
             <Route path='/OurFleet' element={<OurFleet />} />
           {/*New ThingsToDoInBlackpool page */}
             <Route path='/ThingsToDoInBlackpool' element={<ThingsToDoInBlackpool />} />
+          {/*New WhitesideForBusiness page */}
+            <Route path='/WhitesideForBusiness' element={<WhitesideForBusiness />} />
+          {/*New Book page */}
+            <Route path='/Book' element={<Book />} />
+          {/*New AirportTransfers page */}
+            <Route path='/AirportTransfers' element={<AirportTransfers />} />
+            {/* New ManchesterAirport page */}
+            <Route path ='/ManchesterAirport' element={<ManchesterAirport />} />
+            {/* New LiverpoolAirport page */}
+            <Route path ='/LiverpoolAirport' element={<LiverpoolAirport />} />
+
+
         </Routes>
         <Footer />
       </div>

@@ -1,0 +1,66 @@
+.container1 {
+    background-image: url('../Images//hero2.png');
+     background-repeat: no-repeat;        /* prevent tiling */
+    background-position: center center;  /* center the image */
+    background-size: cover;              /* scale image to cover container */
+    background-attachment: fixed;
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: white;
+}
+
+.container1 {
+    background-image: url(../Images/hero2.png);
+     background-repeat: no-repeat;        /* prevent tiling */
+    background-position: center center;  /* center the image */
+    background-size: cover;              /* scale image to cover container */
+    background-attachment: fixed;
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 1rem 1rem;
+    align-items: center;
+    background-color: rgba(91, 30, 205, 0.8)
+}
+
+.text1 {
+    max-width: 45%;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.button1 {
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem;
+    color: blueviolet;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.button1:hover {
+    background-color: hotpink;
+    color: white;
+    transition: 0.5s;
+}

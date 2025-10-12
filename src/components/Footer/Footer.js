@@ -1,4 +1,6 @@
 import './Footer.css';
+import { Link } from 'react-router-dom';
+import { Routes } from 'react-router-dom';
 
 function Footer () {
     return (
@@ -46,11 +48,11 @@ St Annes On Sea FY8 2JE`}
             <div className='h-auto text-[white] p-4 rounded-[80px] w-[300px]'>
                 <h3 className='text-[20px] font-medium'>AIRPORT TRANSFERS</h3>
                 <ol>
-                    <li><a href='#'>Airport Transfers</a></li>
-                     <li><a href='#'>Manchester Airport</a></li>
-                      <li><a href='#'>Liverpool Airport</a></li>
-                       <li><a href='#'>Heathrow Airport</a></li>
-                        <li><a href='#'>Gatwick Airport</a></li>
+                    <li><Link to={"/AirportTransfers"}>Airport Transfers</Link></li>
+                     <li><Link to={"/ManchesterAirport"}>Manchester Airport</Link></li>
+                      <li><Link to={"/LiverpoolAirport"}>Liverpool Airport</Link></li>
+                       <li><Link to={"/Get-Quote"}>Heathrow Airport</Link></li>
+                       <li><Link to={"/Get-Quote"}>Gatwick Airport</Link></li>
                         <li><a href='#'></a></li>
                         <h3 className='text-[20px] font-medium'>BLOGS</h3>
                          <li><a href='#'>Sandcastle Waterpark Taxi Guide</a></li>
@@ -63,10 +65,10 @@ St Annes On Sea FY8 2JE`}
                 <h3 className='text-[20px] font-medium'>ABOUT</h3>
                 <ol>
                  <li><a href='#'></a>Company Information</li>
-                  <li><a href='#'>Whiteside for Business</a></li>
-                   <li><a href='#'>Our Fleet</a></li>
-                    <li><a href='#'>Careers</a></li>
-                     <li><a href='#'>Contact Us</a></li>
+                  <li><Link to={"/WhitesideForBusiness"}>Whiteside for Business</Link></li>
+                   <li><Link to={"/OurFleet"}>Our Fleet</Link></li>
+                    <li><Link to={"/CareerPage"}>Careers</Link></li>
+                     <li><Link to={"/ContactUs"}>Contact Us</Link></li>
                      <h3 className='text-[20px] font-medium'>LEGAL</h3>
                       <li><a href='#'>Privacy Policy</a></li>
                        <li><a href='#'>Terms and Conditions</a></li>
@@ -77,7 +79,7 @@ St Annes On Sea FY8 2JE`}
             <div className='h-auto text-[white] p-4 rounded-[80px] w-[300px]'>
                 <h3 className='text-[20px] font-medium'>CHOOSE WHITESIDE</h3>
                 <ol>
-                     <li><a href='#'>Download App</a></li>
+                     <li><Link to={"/App"}>Download App</Link></li>
                       <li><a href='#'>In-Car Card Machine</a></li>
                        <li><a href='#'>Automatic Operator</a></li>
                         <li><a href='#'></a>Textback</li>

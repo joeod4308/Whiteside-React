@@ -6,7 +6,7 @@ import React, { useEffect, useRef, useState } from "react";
 function Header() {
   const links= [
         {to: "/CompanyInformation", label: "Company Information"},
-        {to: "/WhitesideForBussiness", label: "Whiteside For Bussiness"},
+        {to: "/WhitesideForBusiness", label: "Whiteside For Bussiness"},
         {to: "/OurFleet", label: "Our Fleet"},
         {to: "/CareerPage", label: "Careers"},
         {to: "/ThingsToDoInBlackpool", label: "Things To Do In Blackpool"}
@@ -15,7 +15,7 @@ function Header() {
         { to: '/Get-Quote', label: 'Get Quote' },
         { to: '/NationwideTransport', label: 'Nationwide Transport' },
         { to: '/AirportTransfers', label: 'Airport Transfers' },
-        { to: '/Manchester Airport', label: 'Manchester Airport' },
+        { to: '/ManchesterAirport', label: 'Manchester Airport' },
         { to: '/LiverpoolAirport', label: 'Liverpool Airport' },
     ];
     
@@ -33,7 +33,7 @@ function Header() {
       <DropdownMenu className="nav-button" label="About ▼" links={links} />
       <DropdownMenu className="nav-button" label="Get Quote ▼" linkss={linkss} />
       <Link to="/ContactUs" className="nav-button">Contact</Link>
-      <button className="nav-button">Book Taxi</button>
+      <Link to="/Book" className="nav-button">Book Online</Link>
       <a className="nav-button" href="tel:01253711611">01253 711 611</a>
       <button className="nav-button">Accounts</button>
       <Link to="/TestPage" className="nav-button">TestPage</Link>
