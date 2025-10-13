@@ -1,6 +1,7 @@
 // src/App.js
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
 
 import Header from './components/Header/Header';
 import Herosection from './components/Herosection/Hereosection';
@@ -42,6 +43,9 @@ function HomePage() {
 }
 
 function App() {
+  useEffect(() => {
+    document.title = 'Whiteside Taxis';
+  }, []);
   return (
     <Router>
       <ScrollToTop />

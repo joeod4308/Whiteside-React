@@ -19,7 +19,7 @@ function CompanyInformation() {
       </div>
 
       <div className="h-auto flex flex-row mt-[3rem] mb-[3rem] ">
-        <img src='./Images/history/thomas-whiteside.avif' alt="Thomas Whiteside" className="rounded-[50%] w-[400px] h-[400px] ml-[15%]"></img>
+        <img src='/Images/history/thomas-whiteside.avif' alt="Thomas Whiteside" className="rounded-[50%] w-[400px] h-[400px] ml-[15%]"></img>
         <div className="flex justify-center items-start flex-col  ">
         <h1 className="text-[36px] text-[#5b1ecd] flex jusify-center items-center ml-[2rem] font-semibold mb-[1rem]">Whiteside Taxi History Through Time</h1>
         <p className="ml-[2rem] mr-[15%]">The company was founded by Thomas Whiteside in 1880 and is the oldest taxi company in England. The story goes that he won a horse’s harness in a raffle. He then borrowed a horse and cart from his uncle and started a haulage business and as the saying goes, the rest is history…</p>
@@ -38,13 +38,13 @@ function CompanyInformation() {
         </section>
 
         <div className="w-[50%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/whiteside-company-2.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
+          <img src="/Images/History/whiteside-company-2.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
         </div>
         </div>
 
         <div className="h-auto flex flex-row">
           <section className="w-[45%] flex mt-[2rem] mb-[2rem]">
-            <img src="./Images/History/whiteside-company-1.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
+            <img src="/Images/History/whiteside-company-1.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
           </section>
           <section className="w-[55%] flex mt-[2rem] mb-[2rem]">
             <article className="flex justify-center items-start flex-col mr-[15%]">
@@ -61,62 +61,62 @@ function CompanyInformation() {
           <p className="flex justify-center item-center text-[36px] text-[#5b1ecd] font-semibold mt-[3rem]">Whiteside Taxis Timeline</p>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/thomas-whiteside.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/thomas-whiteside.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">Thomas Whiteside - 1861 ~ 1908 Founder</p>
         </div>
 
        <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-2.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-2.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">Whiteside's Hansom Cabs working the rank in Lytham centre</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-3.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-3.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">Whiteside's men and horses working hard to drag the town's lifeboat out to sea to save lives</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-4.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-4.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">Whiteside Taxis first offices at 10 Park Road, St. Annes with stables at the back and living quarters for our team of horsemen</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-5.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-5.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">Whiteside Taxis hansom cabs are replaced with the internal combustion engine motor vehicles</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-6.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-6.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">The 70's brings more modern vehicles and in car radio communication so our drivers no longer have to drive back to the base for work</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-7.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-7.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">The 1970's to 80's and team Whiteside is growing</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-8.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-8.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">The 80's and we operate from a portacabin at our current site, at The Station Yard, St. Annes and make acquisitions of some of our competitors, AAA Taxis and Towlers</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-9.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-9.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">The 1980's to 90's brings in basic computer technology to replace magnet boards, better vehicles and standard for a faster service for our customers</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-10.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-10.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">From 2000 to 2020 we built and moved into a state of the art purpose built office, replacing the old portacabin, and invested in the latest technology to ensure a reliable and prompt service; using a cloud based dispatch system, call centre phone suite, and full automation, mobile app and web booker.</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-11.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-11.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">Diesel and petrol engine vehicles are replaced with clean, modern more environmentally friendly hybrid electric/petrol vehicles.</p>
         </div>
 
         <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="./Images/History/timeline-12.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-12.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">Currently being installed is the first of many rapid EV chargers onsite at The Old Station Yard...the next step, we go full EV electric</p>
         </div>
         </div>
