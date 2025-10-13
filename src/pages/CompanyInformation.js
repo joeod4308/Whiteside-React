@@ -38,7 +38,7 @@ function CompanyInformation() {
         </section>
 
         <div className="w-[50%] mt-[2rem] mb-[2rem]">
-          <img src="/Images/History/whiteside-company-2.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
+          <img src="/Images/History/whiteside-company-2.png" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
         </div>
         </div>
 
