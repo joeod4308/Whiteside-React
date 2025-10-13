@@ -44,7 +44,7 @@ function CompanyInformation() {
 
         <div className="h-auto flex flex-row">
           <section className="w-[45%] flex mt-[2rem] mb-[2rem]">
-            <img src="/Images/History/whiteside-company-1.avif" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
+            <img src="/Images/History/whiteside-company-1.png" className="w-[620px] h-[450px] rounded-[8px] ml-[15%]"></img>
           </section>
           <section className="w-[55%] flex mt-[2rem] mb-[2rem]">
             <article className="flex justify-center items-start flex-col mr-[15%]">
@@ -66,7 +66,7 @@ function CompanyInformation() {
         </div>
 
        <div className="flex flex-row items-center ml-[15%] mt-[2rem] mb-[2rem]">
-          <img src="/Images/History/timeline-2.avif" className="rounded-[8px] w-[320px] h-[180px]"></img>
+          <img src="/Images/History/timeline-2.png" className="rounded-[8px] w-[320px] h-[180px]"></img>
           <p className="ml-[2rem] rounded-[8px] bg-[white] w-[800px] h-[fitcontent] py-[1rem] px-[2rem] font-semibold [border-left:6px_solid_hotpink] ">Whiteside's Hansom Cabs working the rank in Lytham centre</p>
         </div>
 

@@ -9,7 +9,8 @@
 /coverage
 
 # production
-# add /build to ignore build folder
+/build 
+#Remove /build when updating github using all. and want to contain the build folder.
 
 
 # misc
