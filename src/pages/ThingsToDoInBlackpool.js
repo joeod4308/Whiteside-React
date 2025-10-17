@@ -16,8 +16,8 @@ function ThingsToDoInBlackpool() {
     </article>
   </div>
 
-  <div className=" bg-white xl:flex xl:flex-col xl:justify-center xl:items-center xl:pt-20 xl:pb-20 xl:h-auto xl:gap-4">
-    <section className="bg-[#e7e3f1] w-[75%] flex flex-row justify-center items-center xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
+  <div className="flex flex-col items-center bg-white xl:flex xl:flex-col xl:justify-center xl:items-center xl:pt-20 xl:pb-20 xl:h-auto xl:gap-4">
+    <section className="bg-[#e7e3f1] w-auto mx-6 my-4 flex flex-col xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
       <h3 className='xl:text-2xl' >Ascent Trampoline Park</h3>
       <p>
         Do you have some little jumpers? Taking the kids out to get out some
