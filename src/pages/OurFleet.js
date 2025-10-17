@@ -1,5 +1,6 @@
 import react from 'react';
 import './OurFleet.css';
+import { Link } from 'react-router-dom';
 
 
 import React, { useEffect, useRef, useState } from "react";
@@ -26,9 +27,9 @@ function OurFleet() {
       <section className="ml-[1rem] flex flex-col justify-center xl:ml-[15%]">
         <h1 className="text-2xl font-bold max-w-[45%] text-[#5b1ecd] mb-[8px]">The Largest Fleet in the Area</h1>
         <p className="xl:max-w-[65%] mb-[1rem] max-w-[70%]">Clean, reliable, and affordable—Whiteside Taxis offers more than just taxis. Experience premium transportation with a trusted name in the industry.</p>
-       <button className="group gap-[10px] border-[2px] border-[solid] border-[#5b1ecd] rounded-[8px] py-[1rem] px-[2rem] w-[fit-content] h-[fit-content] hover:bg-[#5b1ecd] hover:text-[white] hover:duration-[0.5s] flex flex-row justify-center items-center">Book a Taxi
+       <Link to={"/Book"} className="group gap-[10px] border-[2px] border-[solid] border-[#5b1ecd] rounded-[8px] py-[1rem] px-[2rem] w-[fit-content] h-[fit-content] hover:bg-[#5b1ecd] hover:text-[white] hover:duration-[0.5s] flex flex-row justify-center items-center">Book a Taxi
         <Taxi />
-       </button>
+       </Link>
       </section>
     </div>
     <div className="w-screen py-[3rem] xl:py-[3rem]">
