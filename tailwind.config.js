@@ -6,6 +6,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  colors: {
+    pink: '#0ff39e5'
+  },
   plugins: [
     function ({ addComponents }) {
       // Use addComponents to define custom styles

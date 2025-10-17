@@ -1,24 +1,18 @@
 import react from 'react';
 import { Link } from 'react-router-dom';
 import './ThingsToDoInBlackpool.css';
+import { FaTaxi } from 'react-icons/fa6';
+
 
 function ThingsToDoInBlackpool() {
     return (
         <>
-  <div className="var4308-con">
-    <article className="var4308-t-b">
-      <h1>Things To Do While Visiting The Coastal Town Of Blackpool</h1>
-      <p>
-        There are so many great activities to do when you are staying in
-        Blackpool to experience and enjoy. And, never feel like you need to know
-        how to get around when visiting as Whiteside Taxi Blackpool has you
-        covered. We love our town and we love driving visitors around and
-        showing it off. Let’s go over some of the fun attractions you’ll find in
-        Blackpool that you may need a ride too!
-      </p>
-      <a className="var4308-b" href="{{url_for('home') }}">
-        Book a Taxi
-      </a>
+  <div className='bg-[#e7e3f1] w-screen py-12 flex flex-col'>
+    <article className='ml-[1rem] xl:ml-[15%]'>
+      <h1 className='text-2xl font-bold text-[#5b1ecd] pb-4 xl:text-4xl xl:max-w-[55%]' >Things to do while visiting the coastal town of Blackpool</h1>
+      <p className='pb-[2rem] xl:max-w-[58%]'>There are so many great activities to do when you are staying in Blackpool to experience and enjoy. And, never feel like you need to know how to get around when visiting as Whiteside <span className='text-pink-500'>Taxi Blackpool</span> has you covered. We love our town and we love driving visitors around and showing it off. Let’s go over some of the fun attractions you’ll find in Blackpool that you may need a ride too!</p>
+      <Link to={"/Book"} className='group flex flex-row justify-center items-center gap-2 xl:gap-4 border-[2px] border-solid border-[#5b1ecd] w-[fit-content] h-[fit-content] py-4 px-8 rounded-lg hover:bg-[#5b1ecd] hover:duration-500 hover:text-white'  >Book a Taxi
+      <FaTaxi className='text-[#5b1ecd] group-hover:text-white hover:duration-500' /></Link>
     </article>
   </div>
   <div className="var43081-con">
