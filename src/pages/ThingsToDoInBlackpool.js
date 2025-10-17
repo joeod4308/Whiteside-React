@@ -17,8 +17,8 @@ function ThingsToDoInBlackpool() {
   </div>
 
   <div className="flex flex-col items-center bg-white xl:flex xl:flex-col xl:justify-center xl:items-center xl:pt-20 xl:pb-20 xl:h-auto xl:gap-4">
-    <section className="bg-[#e7e3f1] w-auto mx-6 my-4 flex flex-col xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
-      <h3 className='xl:text-2xl' >Ascent Trampoline Park</h3>
+    <section className="bg-[#e7e3f1] w-auto mx-6 my-4 flex flex-col px-3 py-3 xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
+      <h3 className=' text-xl font-semibold xl:text-2xl' >Ascent Trampoline Park</h3>
       <p>
         Do you have some little jumpers? Taking the kids out to get out some
         energy at the{" "}
@@ -34,8 +34,8 @@ function ThingsToDoInBlackpool() {
       </p>
     </section>
 
-    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
-      <h3>Great Promenade Show</h3>
+    <section className="bg-[#e7e3f1] w-auto mx-6 my-4 flex flex-col px-3 py-3 xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
+      <h3 className='text-xl font-semibold xl:text-2xl' >Great Promenade Show</h3>
       <p>
         {" "}
         This is free and is located at the Blackpool Promenade from the South
@@ -44,19 +44,19 @@ function ThingsToDoInBlackpool() {
         that are amazing to see in the evening. The collection consists of 10
         pieces that were chosen in 2000 and developed into this amazing art
         journey.{" "}
-        <a href="https://www.visitblackpool.com/detail/great-promenade-show-6443">
+        <a className="text-[#ff39e5] text-[18px]" href="https://www.visitblackpool.com/detail/great-promenade-show-6443">
           The Great Promenade Show
         </a>{" "}
         is a great place to take a stroll and enjoy our beautiful town.
       </p>
     </section>
 
-    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
-      <h3>SEA LIFE Blackpool</h3>
+    <section className="bg-[#e7e3f1] w-auto mx-6 my-4 flex flex-col px-3 py-3 xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
+      <h3 className='text-xl font-semibold xl:text-2xl' >SEA LIFE Blackpool</h3>
       <p>
         {" "}
         The{" "}
-        <a href="https://www.visitsealife.com/blackpool">
+        <a className="text-[#ff39e5] text-[18px]" href="https://www.visitsealife.com/blackpool">
           SEA LIFE Blackpool
         </a>{" "}
         is also located at our beautiful promenade and is great for all ages.
@@ -68,13 +68,13 @@ function ThingsToDoInBlackpool() {
       </p>
     </section>
 
-    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
-      <h3>Model Village &amp; Gardens</h3>
+    <section className="bg-[#e7e3f1] w-auto mx-6 my-4 flex flex-col px-3 py-3 xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
+      <h3 className='text-xl font-semibold xl:text-2xl' >Model Village &amp; Gardens</h3>
       <p>
         {" "}
         This is an award-winning attraction and has been around since the 70’s.
         The{" "}
-        <a href="http://blackpoolmodelvillage.com/">
+        <a className="text-[#ff39e5] text-[18px]" href="http://blackpoolmodelvillage.com/">
           Blackpool Model Village
         </a>{" "}
         and Gardens are all handcrafted miniature towns with amazing detailing.
@@ -83,8 +83,8 @@ function ThingsToDoInBlackpool() {
       </p>
     </section>
 
-    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
-      <h3>Comedy Carpet</h3>
+    <section className="bg-[#e7e3f1] w-auto mx-6 my-4 flex flex-col px-3 py-3 xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
+      <h3 className='text-xl font-semibold xl:text-2xl' >Comedy Carpet</h3>
       <p>
         {" "}
         This is a unique and fun site to see. The comedy carpet will have you
@@ -92,18 +92,18 @@ function ThingsToDoInBlackpool() {
         it’s one of the biggest pieces the Uk has ever commissioned. It is sort
         of similar to the Hollywood walk of fame but captures the UK’s best
         jokes and comedians.{" "}
-        <a href="https://www.visitblackpool.com/detail/comedy-carpet-blackpool-651130/">
+        <a className="text-[#ff39e5] text-[18px]" href="https://www.visitblackpool.com/detail/comedy-carpet-blackpool-651130/">
           The Comedy Carpet
         </a>{" "}
         is really a great site to see.
       </p>
     </section>
     
-    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
-      <h3>The Beach</h3>
+    <section className="bg-[#e7e3f1] w-auto mx-6 my-4 flex flex-col px-3 py-3 xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
+      <h3 className='text-xl font-semibold xl:text-2xl' >The Beach</h3>
       <p>
         {" "}
-        <a href="https://www.visitblackpool.com/detail/blackpool-beach-275980/">
+        <a className="text-[#ff39e5] text-[18px]" href="https://www.visitblackpool.com/detail/blackpool-beach-275980/">
           Blackpool beach
         </a>{" "}
         is a great place to spend the day! We have one of the best beaches in
