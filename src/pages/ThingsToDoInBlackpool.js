@@ -10,18 +10,19 @@ function ThingsToDoInBlackpool() {
   <div className='bg-[#e7e3f1] w-screen py-12 flex flex-col'>
     <article className='ml-[1rem] xl:ml-[15%]'>
       <h1 className='text-2xl font-bold text-[#5b1ecd] pb-4 xl:text-4xl xl:max-w-[55%]' >Things to do while visiting the coastal town of Blackpool</h1>
-      <p className='pb-[2rem] xl:max-w-[58%]'>There are so many great activities to do when you are staying in Blackpool to experience and enjoy. And, never feel like you need to know how to get around when visiting as Whiteside <span className='text-pink-500'>Taxi Blackpool</span> has you covered. We love our town and we love driving visitors around and showing it off. Let’s go over some of the fun attractions you’ll find in Blackpool that you may need a ride too!</p>
+      <p className='pb-[2rem] max-w-[75%] xl:max-w-[58%]'>There are so many great activities to do when you are staying in Blackpool to experience and enjoy. And, never feel like you need to know how to get around when visiting as Whiteside <span className='text-[#ff39e5]'>Taxi Blackpool</span> has you covered. We love our town and we love driving visitors around and showing it off. Let’s go over some of the fun attractions you’ll find in Blackpool that you may need a ride too!</p>
       <Link to={"/Book"} className='group flex flex-row justify-center items-center gap-2 xl:gap-4 border-[2px] border-solid border-[#5b1ecd] w-[fit-content] h-[fit-content] py-4 px-8 rounded-lg hover:bg-[#5b1ecd] hover:duration-500 hover:text-white'  >Book a Taxi
-      <FaTaxi className='text-[#5b1ecd] group-hover:text-white hover:duration-500' /></Link>
+      <FaTaxi className='text-[#5b1ecd] group-hover:text-white hover:duration-[0.5s]' /></Link>
     </article>
   </div>
-  <div className="var43081-con">
-    <section className="var4308-item-con">
-      <h3>Ascent Trampoline Park</h3>
+
+  <div className=" bg-white xl:flex xl:flex-col xl:justify-center xl:items-center xl:pt-20 xl:pb-20 xl:h-auto xl:gap-4">
+    <section className="bg-[#e7e3f1] w-[75%] flex flex-row justify-center items-center xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
+      <h3 className='xl:text-2xl' >Ascent Trampoline Park</h3>
       <p>
         Do you have some little jumpers? Taking the kids out to get out some
         energy at the{" "}
-        <a href="https://www.airhop.co.uk/blackpool-adventure-trampoline-park/">
+        <a className="text-[#ff39e5] text-[18px]" href="https://www.airhop.co.uk/blackpool-adventure-trampoline-park/" target='blank'>
           {" "}
           Ascent Trampoline
         </a>{" "}
@@ -32,7 +33,8 @@ function ThingsToDoInBlackpool() {
         under.
       </p>
     </section>
-    <section className="var4308-item-con">
+
+    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
       <h3>Great Promenade Show</h3>
       <p>
         {" "}
@@ -48,7 +50,8 @@ function ThingsToDoInBlackpool() {
         is a great place to take a stroll and enjoy our beautiful town.
       </p>
     </section>
-    <section className="var4308-item-con">
+
+    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
       <h3>SEA LIFE Blackpool</h3>
       <p>
         {" "}
@@ -64,7 +67,8 @@ function ThingsToDoInBlackpool() {
         £11.
       </p>
     </section>
-    <section className="var4308-item-con">
+
+    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
       <h3>Model Village &amp; Gardens</h3>
       <p>
         {" "}
@@ -78,7 +82,8 @@ function ThingsToDoInBlackpool() {
         handcrafted villages have themes and are just amazing to see in person.
       </p>
     </section>
-    <section className="var4308-item-con">
+
+    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
       <h3>Comedy Carpet</h3>
       <p>
         {" "}
@@ -93,7 +98,8 @@ function ThingsToDoInBlackpool() {
         is really a great site to see.
       </p>
     </section>
-    <section className="var4308-item-con">
+    
+    <section className="bg-[#e7e3f1] xl:w-[65%] xl:h-[fit-content] xl:py-4 xl:px-4 rounded-lg">
       <h3>The Beach</h3>
       <p>
         {" "}
